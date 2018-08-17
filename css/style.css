@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.1;
+  font-family: Helvetica, sans-serif;
+  color: black;
+}
+h1 {
+  font-size: 5.4rem;
+  line-height: 0.9;
+  margin-bottom: 1em;
+}
+h2, h3, li, p, a {
+  font-size: 2.4rem;
+}
+p {
+  margin-bottom: 1em;
+}
+ul {
+  margin: 1em 0 1em 2em;
+  list-style: none;
+}
+p > ul {
+  margin-top: 0;
+  color: red;
+}
+main {
+  margin: 0.5em;
+  margin-top: 3.6rem;
+  max-width: 60%;
+}
+header {
+  padding: 0.5em;
+  position: fixed;
+  background: white;
+  top: 0; left: 0;
+  width: 100%;
+}
+nav a {
+  font-size: 1.8rem;
+}
