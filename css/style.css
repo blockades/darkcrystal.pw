@@ -35,7 +35,7 @@ ul {
   list-style: none;
 }
 ul li:before {
-  content: '✨ ';
+  content: '– ';
 }
 main {
   background: white;
@@ -72,8 +72,6 @@ small {
   display: block;
   font-size: 1.8rem;
   padding-bottom: 0.5em;
-  max-width: 70%;
-  margin: 0 auto;
 }
 .strong {
   text-indent: 2em;
@@ -95,31 +93,44 @@ a:hover {
   color: rgb(90,60,245);
 }
 .fullscreen {
+  /* background-image: url('../img/8137_10__95465.1517894114.png');
+  background-size: cover;
+  background-position: left top;
+  background-blend-mode: multiply;
+  background-color: rgb(90,60,245);*/
+  background: black;
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background: black;
   color: white;
   position: relative;
   z-index: 1;
-  /* background: rgb(90,60,245); */
+
 }
 .intro {
   position: relative;
+  padding: 0.5em;
+  margin-bottom: 5em;
 }
-.intro p,
+
 .secondary p,
 .secondary li {
-  font-size: 3.6rem;
-  line-height: 1.05;
-  max-width: 70%;
-  margin: 0 auto;
+  font-size: 4.2rem;
+  line-height: 1;
+  max-width: 80%;
+  margin-left: 0.25em;
 }
 .intro p {
-  padding-bottom: 1em;
+  font-size: 6.4rem;
+  line-height: 0.95;
+  max-width: 90%;
+  margin-bottom: 0;
+}
+.intro p + p {
+  text-indent: 2em;
 }
 .intro p:last-of-type {
   /* border-bottom: 1px solid;
@@ -132,7 +143,7 @@ a:hover {
   text-indent: 2em;
 }
 .secondary p a {
-  font-size: 3.6rem;
+  font-size: 4.2rem;
   color: black;
 }
 .secondary p a:hover {
@@ -153,9 +164,8 @@ a:hover {
   display: none;
 }
 .faq {
-
   max-width: 100%;
-  background: #eee;
+  background: black;
   padding: 2em 2em 8em;
   position: fixed;
   bottom: 0;
@@ -172,16 +182,18 @@ a:hover {
   max-width: 48.5%;
 }
 .faq p {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-family: 'IBM Plex Mono', monospace;
   line-height: 1.2;
+  color: white;
 }
 .faq p a {
-  font-size: 1.6rem;
-  color: black;
+  font-size: 1.7rem;
+  color: white;
+  text-decoration: underline;
 }
 .faq p a:hover {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   color: black;
   color: rgb(90,60,245);
 }
@@ -198,12 +210,13 @@ em {
   text-indent: 0 !important;
   max-width: 70%;
   margin: 0 auto;
-  padding-right: 0 !important;
+  padding-right: 10%;
 }
 h2 {
   text-align: center;
   padding: 2em 0;
-  background: #eee;
+  background: black;
+  color: white;
 }
 .copy {
   position: absolute;
