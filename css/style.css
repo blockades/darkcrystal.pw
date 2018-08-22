@@ -88,16 +88,19 @@ sup {
 .gif {
   width: 6%;
   image-rendering: pixelated;
+  image-rendering: optimizeSpeed;
   /* filter: grayscale(1); */
 }
 .gif2 {
   width: 5%;
   image-rendering: pixelated;
+  image-rendering: optimizeSpeed;
   /* filter: grayscale(1); */
 }
 .gif3 {
   width: 4%;
   image-rendering: pixelated;
+  image-rendering: optimizeSpeed;
 }
 /* .gif:hover,
 .gif2:hover {
