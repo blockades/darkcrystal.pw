@@ -1,0 +1,17 @@
+Title: dan hassan
+
+----
+
+Position: cat man
+
+----
+
+About: this is the about page
+
+----
+
+Phone: 12345
+
+----
+
+Email: dh@blockades.org
