@@ -1,0 +1,29 @@
+title: Home
+
+pages: false
+
+fields:
+
+  landing:
+    label: landing
+    type: textarea
+
+  intro:
+    label: intro
+    type:  textarea
+
+  secondary:
+    label: secondary
+    type: textarea
+
+  faq_title:
+    label: faq_title
+    type: textarea
+
+  faq_left:
+    label: faq_left
+    type: textarea
+
+  faq_right:
+    label: faq_right
+    type: textarea
