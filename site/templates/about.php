@@ -26,7 +26,8 @@
       <h2>Peers</h2>
 
       <ul class="team-list grid gutter-1">
-        <?php foreach($page->children()->visible() as $member): ?>
+        <?php foreach($page->children()->visible()->filterBy('intendedTemplate', 'team') as $member): ?>
+
           <li class="team-item column">
 
             <?php if($image = $member->image()): ?>
@@ -56,6 +57,39 @@
           </li>
         <?php endforeach ?>
       </ul>
+
+      <h2>Advisors</h2>
+
+      <ul class="team-list grid gutter-1">
+        <?php foreach($page->children()->visible()->filterBy('intendedTemplate', 'advisor') as $advisor): ?>
+          <li class="team-item column">
+
+            <?php if($image = $advisor->image()): ?>
+              <figure class="team-portrait">
+                <img src="<?= $image->url() ?>" alt="Portrait of <?= $advisor->title()->html() ?>" />
+              </figure>
+            <?php endif ?>
+
+            <div class="team-info">
+              <h3 class="team-name"><?= $advisor->title()->html() ?></h3>
+              <p class="team-position"><?= $advisor->position()->html() ?></p>
+              <div class="team-about text">
+                <?= $advisor->about()->kirbytext() ?>
+              </div>
+            </div>
+
+            <div class="team-contact text">
+              <i>ssb:</i><br />
+              <?= $advisor->ssb()->html() ?><br />
+              <i>twitter:</i><br />
+              <?= kirbytag(['twitter' => $advisor->twitter()->html()]) ?><br />
+              <i>github:</i><br />
+              <a href="http://github.com/<?= $advisor->github()->html() ?>"><?= $advisor->github()->html() ?></a><br />
+            </div>
+          </li>
+        <?php endforeach ?>
+      </ul>
+
 
     </section>
 

@@ -1,0 +1,41 @@
+title: Advisor
+
+pages: false
+
+icon: user
+
+preview: parent
+
+fields:
+  title:
+    label: Name
+    type: title
+
+  position:
+    label: Position
+    type: text
+
+  about:
+    label: About
+    type: textarea
+
+  ssb:
+    label: ssb
+    type: text
+    placeholder: ssb_publickey
+    icon: github
+    width: 1/2
+
+  twitter:
+    label: twitter
+    type: text
+    placeholder: @username
+    icon: twitter
+    width: 1/2
+
+  github:
+    label: github
+    type: text
+    placeholder: github_username
+    icon: github
+    width: 1/2
