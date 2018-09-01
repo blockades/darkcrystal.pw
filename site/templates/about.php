@@ -1,6 +1,9 @@
-<?php snippet('header') ?>
+<nav><a href="http://darkcrystal.pw/">Dark Crystal</a> <a href="http://darkcrystal.pw/ssb-protocol-docs.html" target="_blank">Scuttlebutt Protocol Guide</a> <a href="https://github.com/blockades/" target="_blank">Dark Crystal Repos</a> <a href="https://github.com/ssbc" target="_blank">SSB Repos</a></nav><a class="email" href="mailto: frontdesk@blockades.org">Get in touch</a>
 
-  <main class="main" role="main">
+<?= css('assets/css/index.css') ?>
+
+
+  <div class="main" role="main">
 
     <div class="wrap">
 
@@ -52,6 +55,6 @@
 
     </section>
 
-  </main>
+  </div>
 
 <?php snippet('footer') ?>
