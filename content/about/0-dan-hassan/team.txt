@@ -6,7 +6,7 @@ Position: peer
 
 ----
 
-About: Dan is a computer engineer active in autonomous co-operatives over the last decade; in areas of economics (Rootstock, Robin Hood Coop, Economic Space Agency, Enspiral), housing (Radical Routes), migration (No Borders) & labour (Footprint Workers Coop). Currently researching blockchains & data analysis for Dyne, Robin Hood Coop & University of Western Sydney Institute for Culture & Society. Caretaker of Public BigchainDB as part of the IPDB Foundation; Board Member of Robin Hood Coop.
+About: Dan is a computer engineer active in autonomous co-operatives over the last decade; in areas of economics , housing, migration & labour.
 
 ----
 

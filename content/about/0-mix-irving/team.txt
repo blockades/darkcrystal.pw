@@ -1,0 +1,25 @@
+Title: mix irving
+
+----
+
+Position: peer
+
+----
+
+About: Mix is a programmer, teacher, and facilitator who is one of the most active contributors to Secure Scuttlebutt. He has co-founded several tech co-ops, and already fully lives the p2p crypto-powered future that he believes is the future.
+
+----
+
+Ssb: @ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519
+
+----
+
+Twitter: @whimful
+
+----
+
+Github: mixmix
+
+----
+
+Email: mix@enspiral.com
