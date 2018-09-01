@@ -20,10 +20,25 @@ fields:
     label: About
     type: textarea
 
-  phone:
-    label: Phone Number
-    type: tel
-    required: true
+  ssb:
+    label: ssb
+    type: text
+    placeholder: ssb_publickey
+    icon: github
+    width: 1/2
+
+  twitter:
+    label: twitter
+    type: text
+    placeholder: @username
+    icon: twitter
+    width: 1/2
+
+  github:
+    label: github
+    type: text
+    placeholder: github_username
+    icon: github
     width: 1/2
 
   email:
