@@ -1,0 +1,25 @@
+Title: alanna irving
+
+----
+
+Position: peer
+
+----
+
+About: Alanna is an expert in productivity and governance of distributed, non-hierarchical communities and businesses. She has significant experience building open source software to enable new kinds of organising, especially related to collaborating with money.
+
+----
+
+Ssb: @6OxffMLNyxkboLjCqv29WnMPhH8O3qFrcXCR6KrKcPI=.ed25519
+
+----
+
+Twitter: @alannairving
+
+----
+
+Github: alannallama
+
+----
+
+Email: hello@alanna.space

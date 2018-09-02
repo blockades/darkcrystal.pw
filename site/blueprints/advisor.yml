@@ -1,8 +1,8 @@
-title: Team Member
+title: Advisor
 
 pages: false
 
-icon: user
+icon: user-plus
 
 preview: parent
 
@@ -14,7 +14,6 @@ fields:
   position:
     label: Position
     type: text
-    required: true
 
   about:
     label: About
@@ -39,10 +38,4 @@ fields:
     type: text
     placeholder: github_username
     icon: github
-    width: 1/2
-
-  email:
-    label: Email Address
-    type: email
-    required: true
     width: 1/2

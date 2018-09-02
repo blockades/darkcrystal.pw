@@ -1,0 +1,21 @@
+Title: Dominic Tarr
+
+----
+
+Position: peer
+
+----
+
+About: Scuttlebutt was created by Dominic Tarr, a Node.js developer with more than 600 modules published on npm and who lives on a self-steering sailboat in New Zealand. It is here, from the need for offline connection with the outside word, ScuttleButt emerged.
+
+----
+
+Ssb: @EMovhfIrFk4NihAKnRNhrfRaqIhBv1Wj8pTxJNgvCCY=.ed25519
+
+----
+
+Twitter: @dominictarr
+
+----
+
+Github: dominictarr

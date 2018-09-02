@@ -1,0 +1,15 @@
+Title: About
+
+----
+
+Intro: The Magic Money Tree project started when Dan Hassan gifted 50 people cryptocurrency who otherwise would not have gotten involved in it, and used these experiences as research into what it actually takes to make cryptocurrency accessible to more diverse people. Over the last year, we have zeroed in on safe management of private keys as a foundational problem to solve. Dan Hassan then brought a team together with a track record of delivering new socio-technological open source tools and we got to work.
+
+----
+
+Text: 
+
+Members of our team have built the world's first cooperative hedge fund (Robin Hood Coop), created open source software for collaborative organising and financial decision-making (Loomio and Cobudget), grown networks of next-paradigm social impact startups (Enspiral), participated in a 30 year long federation of cooperatives which has never had a default on a loan (Radical Routes), attracted EU funding for investigations into social currency design and community driven decision making (D-CENT and DECODE), and helped create one of the most vibrant growing ecosystems in cipherspace (Secure Scuttlebutt).
+
+Dan Hassan has an MSc in Advanced Computing Technologies, having built a metadata search engine for the Bitcoin blockchain. Mix is a core developer of Scuttlebutt a decentralised p2p cryptographic protocol used for a range of apps from social networking to git. Alanna has co-founded a number of startups specifically in the area of open source tools for financial collaboration, and is an expert in non-hierarchical business structures. Kieran and Peg are accomplished computer programmers and community builders.
+
+We are all experienced in effective collaboration and know how to work as a team. We are a high-EQ group, emphasising the human elements of what it takes to make great software, backed up by technical expertise.

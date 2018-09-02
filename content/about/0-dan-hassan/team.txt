@@ -1,0 +1,29 @@
+Title: dan hassan
+
+----
+
+Position: peer
+
+----
+
+About: Dan is a computer engineer active in autonomous co-operatives over the last decade; in areas of economics , housing, migration & labour.
+
+----
+
+Phone: 12345
+
+----
+
+Email: dh@blockades.org
+
+----
+
+Twitter: @dan_mi_sun
+
+----
+
+Github: dan-mi-sun
+
+----
+
+Ssb: @NeB4q4Hy9IiMxs5L08oevEhivxW+/aDu/s/0SkNayi0=.ed25519

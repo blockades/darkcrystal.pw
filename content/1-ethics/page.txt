@@ -1,0 +1,37 @@
+Title: Ethics
+
+----
+
+Text: 
+
+Reason for this section is to differentiate ourselves from most other blockchain projects. 
+
+The intended audience are:
+    
+    - future collaborators, workmates, advisors
+    - future marginalised folks we're building towards
+    
+Previous content:
+- [Week Four #mmt on 12 Principles for Starting a Feminist Business](%Fn2/ijpjsI7AHSAExbzmCGB6YP6YUL6kSD3/25KTKoU=.sha256)
+- Most all of the feminist business threads
+- Loomio ethics threads
+- Kieran and Pegs reflections of Network Convergence
+
+---
+
+## Radical Dogfooding
+Pros:
+- we're using and building this stuff
+
+Cons:
+    - how to avoid getting stuck within a privileged postion and repeating the patterns of Silicon Valley
+    
+## Privilidged Petridish
+Pros:
+    - attempts to speak to the above con
+    - We acknowledge our ACCESS and privlidge and seek to utelise this positon in SERVICE towards the margins
+    
+## #causeascene and get comfortable with being uncomfortable
+
+## exploring what it means to be a feminist business
+- slowness and basically link out to our anwers so far?

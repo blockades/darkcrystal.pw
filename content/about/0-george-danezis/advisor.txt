@@ -1,0 +1,21 @@
+Title: George Danezis
+
+----
+
+Position: peer
+
+----
+
+About: Security, privacy and anonymity researcher. Prof. of Security and Privacy Engineering at UCL. Leading the Blockchain lab there, built blockchain POC for Bank of England
+
+----
+
+Ssb: 
+
+----
+
+Twitter: @GDanezis
+
+----
+
+Github: gdanezis
