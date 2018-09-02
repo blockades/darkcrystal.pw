@@ -1,0 +1,21 @@
+Title: Evan Henshaw-Plath (rabble)
+
+----
+
+Position: peer
+
+----
+
+About: First engineer at Twitter, and founding member indymedia & protest.net. Evan has also been CTO of Digital Garage’s neo.com, and is a research affiliate at MIT, where he has taught lean design in the Media Lab. 1st employee at Odeo (ne twitter), co-founder of affinity.works. VP Eng of Quantstamp
+
+----
+
+Ssb: @5fYRrgyJON0r0R9SPrK0oxR1XKhqNXqiN0FBX+MgfH4=.ed25519
+
+----
+
+Twitter: @rabble
+
+----
+
+Github: rabble
