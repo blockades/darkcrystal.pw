@@ -24,7 +24,7 @@ fields:
     label: ssb
     type: text
     placeholder: ssb_publickey
-    icon: github
+    icon: share-alt
     width: 1/2
 
   twitter:

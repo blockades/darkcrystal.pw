@@ -26,7 +26,7 @@
       <h2>Peers</h2>
 
       <ul class="team-list grid gutter-1">
-        <?php foreach($page->children()->visible()->filterBy('intendedTemplate', 'team') as $member): ?>
+        <?php foreach($page->children()->visible()->filterBy('intendedTemplate', 'team')->shuffle() as $member): ?>
 
           <li class="team-item column">
 
@@ -61,7 +61,7 @@
       <h2>Advisors</h2>
 
       <ul class="team-list grid gutter-1">
-        <?php foreach($page->children()->visible()->filterBy('intendedTemplate', 'advisor') as $advisor): ?>
+        <?php foreach($page->children()->visible()->filterBy('intendedTemplate', 'advisor')->shuffle() as $advisor): ?>
           <li class="team-item column">
 
             <?php if($image = $advisor->image()): ?>
