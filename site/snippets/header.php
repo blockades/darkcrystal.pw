@@ -11,4 +11,4 @@
 
 </head>
 <body>
-<header><header><nav><a href="http://darkcrystal.pw/">Dark Crystal</a> <a href="http://darkcrystal.pw/about">About</a> <a href="http://darkcrystal.pw/contact">Contact</a> </header></header>
+<header><nav><a href="http://darkcrystal.pw/">Dark Crystal</a> <a href="http://darkcrystal.pw/about">About</a> <a href="http://darkcrystal.pw/contact">Contact</a> </header>
