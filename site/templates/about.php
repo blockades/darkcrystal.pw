@@ -30,7 +30,8 @@
 
           <div class="team-contact text">
             <i>ssb:</i><br />
-            <?= $member->ssb()->html() ?><br />
+            <?= $member->ssb_name()->html() ?><br />
+            <?= $member->ssb_publickey()->html() ?><br />
             <i>twitter:</i><br />
             <?= kirbytag(['twitter' => $member->twitter()->html()]) ?><br />
             <i>github:</i><br />
@@ -64,7 +65,8 @@
 
           <div class="team-contact text">
             <i>ssb:</i><br />
-            <?= $advisor->ssb()->html() ?><br />
+            <?= $advisor->ssb_name()->html() ?><br />
+            <?= $advisor->ssb_publickey()->html() ?><br />
             <i>twitter:</i><br />
             <?= kirbytag(['twitter' => $advisor->twitter()->html()]) ?><br />
             <i>github:</i><br />

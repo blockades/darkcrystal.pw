@@ -11,4 +11,4 @@
 
 </head>
 <body>
-<header><nav><a href="http://darkcrystal.pw/">Dark Crystal</a> <a href="http://darkcrystal.pw/about">About</a> <a href="http://darkcrystal.pw/contact">Contact</a> </header>
+<header><nav><a href="<?php echo $site->url() ?>/">dark crystal</a> <a href="<?php echo $site->url() ?>/about">about</a> <a href="<?php echo $site->url() ?>/contact">contact</a> </header>
