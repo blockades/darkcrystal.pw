@@ -19,6 +19,10 @@ body {
   color: black;
   -webkit-font-smoothing: antialiased;
 }
+img {
+  max-width: 100%;
+  display: block;
+}
 h1 {
   font-size: 9.6rem;
   font-weight: normal;
@@ -47,7 +51,7 @@ main {
   position: relative;
   padding: 0.5em;
   padding-bottom: 6em;
-  padding-top: 3.6rem;
+  padding-top: 3rem;
   margin-bottom: 770px;
   max-width: 100%;
   box-shadow: 0px 10px 14px 0px rgba(0,0,0,0.25);
@@ -72,6 +76,7 @@ header a {
   font-size: 1.8rem;
   color: white;
   text-decoration: none;
+  text-transform: capitalize;
 }
 small {
   display: block;
@@ -85,22 +90,28 @@ sup {
   font-size: 1.8rem;
   padding-left: 0.25rem;
 }
+.gif,
+.gif2,
+.gif3 {
+  display: inline;
+  line-height: 1;
+}
 .gif {
   width: 6%;
   image-rendering: pixelated;
-  image-rendering: optimizeSpeed;
+  /* image-rendering: optimizeSpeed; */
   /* filter: grayscale(1); */
 }
 .gif2 {
   width: 5%;
   image-rendering: pixelated;
-  image-rendering: optimizeSpeed;
+  /* image-rendering: optimizeSpeed; */
   /* filter: grayscale(1); */
 }
 .gif3 {
   width: 4%;
   image-rendering: pixelated;
-  image-rendering: optimizeSpeed;
+  /* image-rendering: optimizeSpeed; */
 }
 /* .gif:hover,
 .gif2:hover {
@@ -145,12 +156,13 @@ a:hover {
 }
 .secondary {
   margin-left: 8em;
+  max-width: 1180px;
 }
 .secondary p,
 .secondary li {
-  font-size: 3.6rem;
+  font-size: 3rem;
   line-height: 1;
-  max-width: 80%;
+  /* max-width: 80%; */
   margin-left: 0.25em;
 }
 .intro p {
@@ -158,6 +170,10 @@ a:hover {
   line-height: 0.98;
   max-width: 90%;
   margin-bottom: 0;
+  line-height: 0.95;
+}
+.intro p:last-of-type {
+  margin-bottom: 1em;
 }
 .intro p + p {
   text-indent: 2em;
@@ -173,7 +189,7 @@ a:hover {
   text-indent: 2em;
 }
 .secondary p a {
-  font-size: 3.6rem;
+  font-size: 3rem;
   color: black;
   text-decoration: underline;
 }
@@ -253,6 +269,73 @@ h2 {
   background: black;
   color: white;
 }
+figure {
+  margin: 0.5em 0;
+}
+.team {
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+.team figure {
+  background: #272727;
+}
+.team figure:hover {
+  background: rgb(90,60,245);
+}
+.team figure:hover + .name,
+.team figure:hover + .name:before {
+  color: rgb(90,60,245);
+}
+.team figure img {
+  filter: grayscale(1) contrast(1.25);
+  mix-blend-mode: screen;
+}
+.team .text h1 {
+  margin-bottom: 0;
+}
+.team h1 {
+  font-size: 6.4rem;
+}
+.team h2 {
+  background: white;
+  color: black;
+  font-size: 3rem;
+  text-align: left;
+  padding-top: 0.25em;
+  margin-top: 4em;
+  border-top: 1px solid;
+}
+.team-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.team-list-single {
+  width: calc(100% / 3 - 1em);
+  margin: 0 0.5em;
+  margin-bottom: 1em;
+}
+.team-list-single p,
+.team-list-single .name,
+.team-list-single a {
+  font-size: 2.1rem;
+  margin: 0;
+}
+.team-list-single a {
+  color: rgb(90,60,245);
+}
+.team-list-single .name {
+  text-transform: capitalize;
+  /* color: rgb(90,60,245); */
+}
+.team-list-single .name:before {
+  content: '\2B24';
+  font-size: 0.7em;
+  /* color: rgb(90,60,245); */
+  position: relative;
+  top: -4px;
+  padding-right: 0.25em;
+}
 .copy {
   position: absolute;
   bottom: 1em; left: 1em;
@@ -301,6 +384,7 @@ h2 {
   }
   .secondary {
     margin-left: 0;
+    max-width: 1180px;
   }
   .secondary p, .secondary li, .secondary p a {
     font-size: 2rem;
@@ -332,7 +416,7 @@ h2 {
     padding-top: 1.5em;
   }
   nav a, header a, small {
-  font-size: 1.6rem;
+    font-size: 1.6rem;
   }
   .intro {
     padding: 0;
