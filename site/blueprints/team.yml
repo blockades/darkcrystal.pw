@@ -20,10 +20,17 @@ fields:
     label: About
     type: textarea
 
-  ssb:
-    label: ssb
+  ssb_name:
+    label: ssb_name
     type: text
-    placeholder: ssb_publickey
+    placeholder: @ssb_name
+    icon: share-alt
+    width: 1/2
+
+  ssb_publickey:
+    label: ssb_publickey
+    type: text
+    placeholder: @ssb_publickey
     icon: share-alt
     width: 1/2
 
