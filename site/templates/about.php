@@ -22,9 +22,17 @@
             <?= $member->about()->kirbytext() ?>
 
             <div class="team-contact text">
-              <i>ssb:</i><br />
-              <?= $member->ssb_name()->html() ?><br />
-              <?= $member->ssb_publickey()->html() ?><br />
+              <div class="ssb">
+                <i>ssb:</i><br />
+                <div class="ssb_name">
+                  <span><?= $member->ssb_name()->html() ?><br /></span>
+                </div>
+                <div class="behind_container">
+                  <div class="ssb_publickey">
+                    <?= $member->ssb_publickey()->html() ?><br />
+                  </div>
+                </div>
+              </div>
               <i>twitter:</i><br />
               <?= kirbytag(['twitter' => $member->twitter()->html()]) ?><br />
               <i>github:</i><br />

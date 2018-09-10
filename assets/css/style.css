@@ -314,6 +314,7 @@ figure {
   width: calc(100% / 3 - 1em);
   margin: 0 0.5em;
   margin-bottom: 1em;
+  word-wrap: break-word;
 }
 .team-list-single p,
 .team-list-single .name,
@@ -339,6 +340,31 @@ figure {
 .copy {
   position: absolute;
   bottom: 1em; left: 1em;
+}
+.ssb {
+    /*float:left;*/
+    /*background-image:url(website-content/hotcampaign.png);*/
+    /*width:292px;
+    height:141px;*/
+}
+
+.ssb .ssb_name {
+    display: block;
+    z-index: 5;
+    position: relative;
+}
+.ssb .ssb_name span {
+    background: #fff;
+}
+
+.ssb .behind_container {
+    background-color: #ff0;
+    position: relative;
+    top: -18px;
+}
+.ssb .ssb_publickey {
+    display: block;
+    z-index: 3;
 }
 
 @media(max-width: 1024px) {
