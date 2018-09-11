@@ -350,7 +350,7 @@ figure {
 
 .ssb .ssb_name {
     display: block;
-    z-index: 5;
+    z-index: 3;
     position: relative;
 }
 .ssb .ssb_name span {
@@ -358,13 +358,15 @@ figure {
 }
 
 .ssb .behind_container {
-    background-color: #ff0;
+    background: white;
     position: relative;
     top: -18px;
+    z-index: 2;
 }
 .ssb .ssb_publickey {
     display: block;
-    z-index: 3;
+    z-index: 1;
+    color: white;
 }
 
 @media(max-width: 1024px) {
