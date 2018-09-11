@@ -349,25 +349,44 @@ figure {
 }
 
 .ssb .ssb_name {
-    display: block;
+    display: inline-block;
     z-index: 3;
     position: relative;
 }
 .ssb .ssb_name span {
     background: #fff;
 }
-
+.ssb .ssb_name:hover {
+    color: white;
+}
 .ssb .behind_container {
-    background: white;
+    /*background: white;*/
     position: relative;
     top: -18px;
     z-index: 2;
 }
 .ssb .ssb_publickey {
-    display: block;
-    z-index: 1;
+    display: inline-block;
+    /*z-index: 1;*/
     color: white;
 }
+.ssb .ssb_publickey:hover {
+  /*z-index: 3;*/
+    color: black;
+    word-wrap: break-word;
+
+  /*background: black;*/
+}
+/*The aim is:
+1. ssb_name is ontop as default
+2a. on hover ssb_name drops behind container
+2b. on hover ssb_publickey comes to the front of the container
+2b. the ssb_publickey needs to change color?
+3. the end result should be to see the pk and not the name*/
+/*.team figure:hover + .name,
+.team figure:hover + .name:before {
+  color: rgb(90,60,245);
+}*/
 
 @media(max-width: 1024px) {
   h1, .intro p, .secondary p {
