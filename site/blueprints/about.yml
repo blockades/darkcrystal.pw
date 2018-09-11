@@ -24,3 +24,7 @@ fields:
   text:
     label: Text
     type: textarea
+
+  advisorsText:
+    label: AdvisorsText
+    type: textarea

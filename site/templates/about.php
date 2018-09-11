@@ -38,6 +38,13 @@
 
       <h2>Advisors</h2>
 
+      <div class="secondary team">
+        <div class="text">
+          <?= $page->advisorsText()->kirbytext() ?>
+        </div>
+      </div>
+
+
       <div class="team-list">
         <?php foreach($page->children()->visible()->filterBy('intendedTemplate', 'advisor')->shuffle() as $advisor): ?>
           <div class="team-list-single">
