@@ -6,7 +6,6 @@
 <main>
 
 <div class="intro">
-  <small>What is Dark Crystal?</small>
   <?= $page->intro()->kirbytext() ?>
 </div>
 
