@@ -314,6 +314,7 @@ figure {
   width: calc(100% / 3 - 1em);
   margin: 0 0.5em;
   margin-bottom: 1em;
+  word-wrap: break-word;
 }
 .team-list-single p,
 .team-list-single .name,
