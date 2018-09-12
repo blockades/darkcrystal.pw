@@ -23,12 +23,12 @@
 
             <div class="team-contact text">
               <i>ssb:</i><br />
-              <?= $member->ssb_name()->html() ?><br />
-              <?= $member->ssb_publickey()->html() ?><br />
+              <a href="https://www.scuttlebutt.nz/" target="_blank"><?= $member->ssb_name()->html() ?></a><br />
+              <a href="https://www.scuttlebutt.nz/" target="_blank"><?= $member->ssb_publickey()->html() ?></a><br />
               <i>twitter:</i><br />
               <?= kirbytag(['twitter' => $member->twitter()->html()]) ?><br />
               <i>github:</i><br />
-              <a href="http://github.com/<?= $member->github()->html() ?>"><?= $member->github()->html() ?></a><br />
+              <a href="http://github.com/<?= $member->github()->html() ?>" target="_blank"><?= $member->github()->html() ?></a><br />
               <i>Email:</i><br />
               <a href="mailto:<?= $member->email()->html() ?>"><?= $member->email()->html() ?></a><br />
             </div>
@@ -62,12 +62,12 @@
 
             <div class="team-contact text">
               <i>ssb:</i><br />
-              <?= $advisor->ssb_name()->html() ?><br />
-              <?= $advisor->ssb_publickey()->html() ?><br />
+              <a href="https://www.scuttlebutt.nz/" target="_blank"><?= $advisor->ssb_name()->html() ?></a><br />
+              <a href="https://www.scuttlebutt.nz/" target="_blank"><?= $advisor->ssb_publickey()->html() ?></a><br />
               <i>twitter:</i><br />
               <?= kirbytag(['twitter' => $advisor->twitter()->html()]) ?><br />
               <i>github:</i><br />
-              <a href="http://github.com/<?= $advisor->github()->html() ?>"><?= $advisor->github()->html() ?></a><br />
+              <a href="http://github.com/<?= $advisor->github()->html() ?>" target="_blank"><?= $advisor->github()->html() ?></a><br />
             </div>
           </div>
         <?php endforeach ?>
