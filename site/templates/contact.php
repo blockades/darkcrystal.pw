@@ -3,27 +3,31 @@
 <div class="wrap wide">
   <h2>Get in Touch</h2>
 
-  <ul class="contact-options">
+  <div class="contact-twitter text wrap cf">
+    <?= $page->intro()->kirbytext() ?>
+  </div>
+
+  <div class="contact-options">
     <?php foreach($page->contactoptions()->toStructure() as $item): ?>
       <?php $icon = $page->image($item->icon()); ?>
-      <li class="contact-item column">
+      <div class="contact-item column">
         <div class="contact-item-content">
           <img src="<?= $icon->url() ?>" width="<?= $icon->width() ?>" alt="<?= $item->title()->html() ?> icon" class="contact-item-icon" />
-          <h3 class="contact-item-title"><?= $item->title()->html() ?></h3>
+          <!-- <h3 class="contact-item-title"><?= $item->title()->html() ?></h3>
           <p class="contact-item-text">
             <?= $item->text()->html() ?>
-          </p>
+          </p> -->
         </div>
         <p class="contact-item-action">
           <a href="<?= $item->url()->html() ?>" class="contact-action btn"><?= $item->linktext()->html() ?></a>
         </p>
-      </li>
+      </div>
     <?php endforeach ?>
-  </ul>
+  </div>
 </div>
 
-<div class="contact-twitter text wrap cf">
+<!-- <div class="contact-twitter text wrap cf">
   <?= $page->text()->kirbytext() ?>
-</div>
+</div> -->
 
 <?php snippet('footer') ?>

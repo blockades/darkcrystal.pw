@@ -23,6 +23,7 @@ img {
   max-width: 100%;
   display: block;
 }
+
 h1 {
   font-size: 9.6rem;
   font-weight: normal;
@@ -341,6 +342,21 @@ figure {
   position: absolute;
   bottom: 1em; left: 1em;
 }
+
+.contact-options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+    width: calc(100% / 1 - 1em);
+    margin: 0 0.5em;
+    margin-bottom: 1em;
+    word-wrap: break-word;
+}
+
+
 
 @media(max-width: 1024px) {
   h1, .intro p, .secondary p {
