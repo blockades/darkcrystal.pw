@@ -350,7 +350,9 @@ figure {
 }
 
 .contact-item {
-    width: calc(100% / 1 - 1em);
+    border-top: 1px dotted;
+    padding: 1.2rem 3.6rem 2.4rem;
+    width: calc(100% / 3 - 1em);
     margin: 0 0.5em;
     margin-bottom: 1em;
     word-wrap: break-word;
