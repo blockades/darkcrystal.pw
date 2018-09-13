@@ -35,6 +35,9 @@ fields:
       linktext:
         label: Link Text
         type: text
+      email:
+        label: Email
+        type: email
 
   text:
     label: Text
