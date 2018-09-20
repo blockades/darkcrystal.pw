@@ -311,6 +311,10 @@ figure {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+.team-list-single a {
+  font-size: 1rem;
+}
 .team-list-single {
   width: calc(100% / 3 - 1em);
   margin: 0 0.5em;

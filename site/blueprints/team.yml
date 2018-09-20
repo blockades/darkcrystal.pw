@@ -48,8 +48,8 @@ fields:
     icon: github
     width: 1/2
 
-  email:
-    label: Email Address
-    type: email
+  contact:
+    label: contact
+    type: url
     required: true
     width: 1/2

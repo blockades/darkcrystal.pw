@@ -29,8 +29,8 @@
               <?= kirbytag(['twitter' => $member->twitter()->html()]) ?><br />
               <i>github:</i><br />
               <a href="http://github.com/<?= $member->github()->html() ?>" target="_blank"><?= $member->github()->html() ?></a><br />
-              <i>Email:</i><br />
-              <a href="mailto:<?= $member->email()->html() ?>"><?= $member->email()->html() ?></a><br />
+              <i>contact:</i><br />
+              <a href="<?= $member->contact()->html() ?>" target="_blank"><?= $member->contact()->html() ?></a><br />
             </div>
           </div>
         <?php endforeach ?>
