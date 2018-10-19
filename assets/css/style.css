@@ -99,19 +99,19 @@ sup {
   line-height: 1;
 }
 .gif {
-  width: 6%;
+  width: 15%;
   image-rendering: pixelated;
   /* image-rendering: optimizeSpeed; */
   /* filter: grayscale(1); */
 }
 .gif2 {
-  width: 5%;
+  width: 6%;
   image-rendering: pixelated;
   /* image-rendering: optimizeSpeed; */
   /* filter: grayscale(1); */
 }
 .gif3 {
-  width: 4%;
+  width: 6%;
   image-rendering: pixelated;
   /* image-rendering: optimizeSpeed; */
 }
