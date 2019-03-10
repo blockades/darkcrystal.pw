@@ -15,4 +15,4 @@
 
 </head>
 <body>
-<header><nav><a href="<?php echo $site->url() ?>/">dark crystal</a> <a href="<?php echo $site->url() ?>/about">about</a> <a href="./img/screencast.gif">demo</a> <a href="<?php echo $site->url() ?>/contact">contact&repos</a> </header>
+<header><nav><a href="<?php echo $site->url() ?>/">dark crystal</a> <a href="<?php echo $site->url() ?>/about">about</a> <a href="./img/screencast.gif">demo</a> <a href="<?php echo $site->url() ?>/contact">contact</a> </header>
